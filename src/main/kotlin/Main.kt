@@ -33,6 +33,9 @@ fun main() {
             println("Несу воду...")
         }
     })
+
+    // 4_11
+    sportsman.callWaterCourier { println("Несу воду...") } // небольшая оптимизация
 }
 
 fun travel(transport: Transport) {
