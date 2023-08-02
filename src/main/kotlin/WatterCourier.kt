@@ -1,0 +1,3 @@
+interface WatterCourier {
+    fun bringWater()
+}
